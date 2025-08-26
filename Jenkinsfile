@@ -4,6 +4,7 @@ pipeline {
     tools {
         maven 'maven'
         nodejs 'nodejs'
+        git 'Default'
     }
 
     parameters {
